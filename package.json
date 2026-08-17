@@ -1,0 +1,13 @@
+{
+  "name": "clickpedidos-landing",
+  "version": "1.0.0",
+  "description": "Landing page de una aplicacion de automatizacion de workflows, similar a n8n.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server .",
+    "dev": "npx live-server ."
+  },
+  "keywords": ["automatizacion", "workflows", "landing"],
+  "author": "",
+  "license": "MIT"
+}
