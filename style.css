@@ -5,9 +5,9 @@
   --border: #262b36;
   --text: #e8eaf0;
   --text-dim: #9aa1b2;
-  --accent: #ff6d5a;
-  --accent-2: #6d8cff;
-  --accent-3: #4ade80;
+  --accent: #2563eb;
+  --accent-2: #38bdf8;
+  --accent-3: #60a5fa;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -108,7 +108,7 @@ nav .container {
   transform: translateX(-50%);
   width: 900px;
   height: 500px;
-  background: radial-gradient(circle, rgba(109,140,255,0.18), transparent 65%);
+  background: radial-gradient(circle, rgba(56,189,248,0.18), transparent 65%);
   pointer-events: none;
 }
 .badge {
@@ -202,10 +202,10 @@ h1 .grad {
   display: flex; align-items: center; justify-content: center;
   font-size: 14px;
 }
-.ic-1 { background: rgba(255,109,90,0.18); color: var(--accent); }
-.ic-2 { background: rgba(109,140,255,0.18); color: var(--accent-2); }
-.ic-3 { background: rgba(74,222,128,0.18); color: var(--accent-3); }
-.ic-4 { background: rgba(250,204,21,0.18); color: #facc15; }
+.ic-1 { background: rgba(37,99,235,0.18); color: var(--accent); }
+.ic-2 { background: rgba(56,189,248,0.18); color: var(--accent-2); }
+.ic-3 { background: rgba(96,165,250,0.18); color: var(--accent-3); }
+.ic-4 { background: rgba(29,78,216,0.18); color: #1d4ed8; }
 .connector {
   width: 44px;
   height: 2px;
@@ -336,7 +336,7 @@ h1 .grad {
   text-align: center;
 }
 .cta-box {
-  background: linear-gradient(135deg, rgba(255,109,90,0.12), rgba(109,140,255,0.12));
+  background: linear-gradient(135deg, rgba(37,99,235,0.14), rgba(56,189,248,0.14));
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 70px 40px;
